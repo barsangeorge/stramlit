@@ -2,7 +2,7 @@ import re
 import streamlit as st
 import requests
 
-WEBHOOK_URL = set.secrets["WEBHOOK_URL"]
+WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
 
 
 def is_valid_email(email):
